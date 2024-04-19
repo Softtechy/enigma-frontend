@@ -127,9 +127,9 @@ const ProductCard = ({ products }) => {
                 </Link>
                 <div className="productDetailsRight">
                   <div className="icons">
-                    <div className="veg">
+                    {/* <div className="veg">
                       <GoDotFill size={20} />
-                    </div>
+                    </div> */}
                     {wishlistItems.findIndex((item) => item.productId === product.id) < 0 && <div
                       className="fav"
                       onClick={(e) => {

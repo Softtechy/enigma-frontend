@@ -9,9 +9,9 @@ const selectedShop = {
   images: {
     gallery: [
       "https://cdn.pixabay.com/photo/2021/08/11/16/06/mountain-6538890_1280.jpg",
-      "https://cdn.pixabay.com/photo/2021/08/11/16/06/mountain-6538890_1280.jpg",
-      "https://cdn.pixabay.com/photo/2021/08/11/16/06/mountain-6538890_1280.jpg",
-      "https://cdn.pixabay.com/photo/2021/08/11/16/06/mountain-6538890_1280.jpg",
+      "https://cdn.pixabay.com/photo/2021/02/24/20/53/abstract-6047465_1280.jpg",
+      "https://cdn.builder.io/api/v1/image/assets/TEMP/48043fdaf909be00bf33c8b1804933636ec6b2659587d19319520a0b79b2d8ad?apiKey=59522909af314c5d9216d44e43c6783c&width=800",
+      "https://cdn.pixabay.com/photo/2015/04/23/12/32/hell-735995_1280.jpg",
       // Add more image URLs here if needed
     ]
   }
@@ -20,7 +20,7 @@ const HeroSection = () => {
   const user = useSelector(selectLoggedInUser);
   const scrollDown = () => {
     // Calculate the Y coordinate to scroll down by 90vh
-    const scrollY = window.innerHeight * 0.90;
+    const scrollY = window.innerHeight * 0.1;
   
     // Scroll to the calculated position with smooth behavior
     window.scrollTo({
@@ -64,7 +64,9 @@ const HeroSection = () => {
 const Container = styled.div`
 
 
-
+h1,h4{
+  color : #fff
+}
 
 position: relative;
   .box {
