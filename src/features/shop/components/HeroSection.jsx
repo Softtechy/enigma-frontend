@@ -5,24 +5,38 @@ import { HiChevronDoubleDown } from "react-icons/hi2";
 import { useSelector } from 'react-redux';
 import { selectLoggedInUser } from '../../auth/authSlice';
 
+const selectedShop = {
+  images: {
+    gallery: [
+      "https://cdn.pixabay.com/photo/2021/08/11/16/06/mountain-6538890_1280.jpg",
+      "https://cdn.pixabay.com/photo/2021/08/11/16/06/mountain-6538890_1280.jpg",
+      "https://cdn.pixabay.com/photo/2021/08/11/16/06/mountain-6538890_1280.jpg",
+      "https://cdn.pixabay.com/photo/2021/08/11/16/06/mountain-6538890_1280.jpg",
+      // Add more image URLs here if needed
+    ]
+  }
+};
 const HeroSection = () => {
   const user = useSelector(selectLoggedInUser);
   const scrollDown = () => {
     // Calculate the Y coordinate to scroll down by 90vh
-    const scrollY = window.innerHeight * 0.75;
-
-    // Scroll to the calculated position
-    window.scrollTo(0, scrollY);
+    const scrollY = window.innerHeight * 0.90;
+  
+    // Scroll to the calculated position with smooth behavior
+    window.scrollTo({
+      top: scrollY,
+      behavior: 'smooth'
+    });
   };
+  
   return (
     <Container>
-        {/* <div className="top">
+        <div className="top">
             <div className="top-div-hero">
               <h1>
-                Start buying your groceries on <span>enigma</span> with zero
-                extra charges
+              Explore breathtaking art at <span>Enigma</span>, with no additional fees
               </h1>
-              <h4>Lie down on your sofa and we will deliver your groceries</h4>
+              <h4>Relax on your sofa as we bring the art gallery to you</h4>
             </div>
             <div className="start-buying-btn">
               {!user && <Link to="/login" className="btn">
@@ -30,12 +44,84 @@ const HeroSection = () => {
               </Link>}
               {user && <HiChevronDoubleDown size={60} onClick={scrollDown} className="ChevronDoubleDown" />}
             </div>
-          </div> */}
+          </div>
+          <div className="box">
+            <div className="sliderbox">
+              <div className="slider">
+                {selectedShop &&
+                  selectedShop.images.gallery.map((image, index) => (
+                    <div key={index}>
+                      <img src={image} alt="shopImages" className="img-shop" />
+                    </div>
+                  ))}
+              </div>
+            </div>
+          </div>
           
     </Container>
   )
 }
 const Container = styled.div`
+
+
+
+
+position: relative;
+  .box {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 0;
+  }
+
+  .sliderbox {
+    width: 100%;
+    height: 90vh;
+    overflow-x: hidden;
+  }
+
+  .slider {
+    width: 400%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    animation: cartoon 24s infinite;
+  }
+
+  @keyframes cartoon {
+    0% {
+      left: 0;
+    }
+
+    25% {
+      left: -100%;
+    }
+
+    50% {
+      left: -200%;
+    }
+
+    75% {
+      left: -300%;
+    }
+  }
+
+  .img-shop {
+    height: 90vh; /* Fixed height */
+    width: 100vw; /* Responsive width */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    display: block; /* Remove any default inline styles that may affect layout */
+    margin: 0;
+    /* filter: grayscale(1); */
+  }
+
+
+
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
@@ -90,6 +176,21 @@ const Container = styled.div`
     justify-content: top;
     padding-top: 20vh;
     height: 75vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    padding-top: 20vh;
+    height: 75vh;
+    z-index: 1;
+
+
     .top-div-hero {
       display: flex;
       align-items: center;
