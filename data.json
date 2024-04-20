@@ -919,6 +919,21 @@
       "userId": 4,
       "quantity": 1,
       "id": 1
+    },
+    {
+      "name": "Art 2",
+      "description": "Premium Basmati Art 2",
+      "price": 499.99,
+      "discount": 10,
+      "stock": 100,
+      "productRating": 5,
+      "productRatingCount": 14,
+      "productImage": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shopId": 1,
+      "productId": 101,
+      "userId": 3,
+      "quantity": 1,
+      "id": 2
     }
   ],
   "wishlist": [
@@ -936,6 +951,21 @@
       "userId": 4,
       "quantity": 1,
       "id": 1
+    },
+    {
+      "name": "Art 2",
+      "description": "Premium Basmati Art 2",
+      "price": 499.99,
+      "discount": 10,
+      "stock": 100,
+      "productRating": 5,
+      "productRatingCount": 14,
+      "productImage": "https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shopId": 1,
+      "productId": 101,
+      "userId": 3,
+      "quantity": 1,
+      "id": 2
     }
   ],
   "orders": [
