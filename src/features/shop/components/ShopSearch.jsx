@@ -62,7 +62,7 @@ const ShopSearch = () => {
             setSelectedState(e.target.value);
           }}
         >
-          <option value="">-- Select State --</option>
+          <option value="">-- Select Style --</option>
           {locations &&
             locations.map((location) => (
               <option key={location.id} value={location.value}>
@@ -76,7 +76,7 @@ const ShopSearch = () => {
           id="cities"
           onChange={(e) => handleCityClick(e, e.target.value)}
         >
-          <option value="">-- Select City --</option>)
+          <option value="">-- Select Artist --</option>)
           {locations &&
             selectedState &&
             selectedCities &&

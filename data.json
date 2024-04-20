@@ -126,8 +126,8 @@
       },
       "location": {
         "country": "India",
-        "state": "Uttar Pradesh",
-        "city": "Mainpuri",
+        "state": "modern_art",
+        "city": "artist1",
         "storeAddress": "123 Main Street"
       },
       "minDiscount": 5,
@@ -184,8 +184,8 @@
       },
       "location": {
         "country": "India",
-        "state": "Uttar Pradesh",
-        "city": "Lucknow",
+        "state": "modern_art",
+        "city": "artist2",
         "storeAddress": "123 Main Street"
       },
       "minDiscount": 5,
@@ -218,7 +218,7 @@
       "rating": 4.5,
       "ratingCount": 120,
       "images": {
-        "logo": "https://images.unsplash.com/photo-1493210977798-4f655ac200a9?q=80&w=1904&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "logo": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
         "gallery": [
           "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
           "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
@@ -243,8 +243,8 @@
       },
       "location": {
         "country": "India",
-        "state": "Uttar Pradesh",
-        "city": "Kanpur",
+        "state": "modern_art",
+        "city": "artist3",
         "storeAddress": "123 Main Street"
       },
       "minDiscount": 5,
@@ -302,8 +302,8 @@
       },
       "location": {
         "country": "India",
-        "state": "Bihar",
-        "city": "Patna",
+        "state": "digital_art",
+        "city": "artist4",
         "storeAddress": "123 Main Street"
       },
       "minDiscount": 5,
@@ -361,8 +361,8 @@
       },
       "location": {
         "country": "India",
-        "state": "Bihar",
-        "city": "Gaya",
+        "state": "digital_art",
+        "city": "artist5",
         "storeAddress": "123 Main Street"
       },
       "minDiscount": 5,
@@ -420,8 +420,8 @@
       },
       "location": {
         "country": "India",
-        "state": "Bihar",
-        "city": "Bhagalpur",
+        "state": "digital_art",
+        "city": "artist6",
         "storeAddress": "123 Main Street"
       },
       "minDiscount": 5,
@@ -477,8 +477,8 @@
       },
       "location": {
         "country": "India",
-        "state": "Uttar Pradesh",
-        "city": "Mainpuri",
+        "state": "modern_art",
+        "city": "artist7",
         "storeAddress": "123 Main Street"
       },
       "minDiscount": 5,
@@ -534,8 +534,8 @@
       },
       "location": {
         "country": "India",
-        "state": "Uttar Pradesh",
-        "city": "Lucknow",
+        "state": "modern_art",
+        "city": "artist8",
         "storeAddress": "123 Main Street"
       },
       "minDiscount": 5,
@@ -591,8 +591,8 @@
       },
       "location": {
         "country": "India",
-        "state": "Uttar Pradesh",
-        "city": "Kanpur",
+        "state": "modern_art",
+        "city": "artist9",
         "storeAddress": "123 Main Street"
       },
       "minDiscount": 5,
@@ -648,8 +648,8 @@
       },
       "location": {
         "country": "India",
-        "state": "Bihar",
-        "city": "Patna",
+        "state": "digital_art",
+        "city": "artist10",
         "storeAddress": "123 Main Street"
       },
       "minDiscount": 5,
@@ -705,8 +705,8 @@
       },
       "location": {
         "country": "India",
-        "state": "Bihar",
-        "city": "Gaya",
+        "state": "digital_art",
+        "city": "artist11",
         "storeAddress": "123 Main Street"
       },
       "minDiscount": 5,
@@ -762,8 +762,8 @@
       },
       "location": {
         "country": "India",
-        "state": "Bihar",
-        "city": "Bhagalpur",
+        "state": "digital_art",
+        "city": "artist12",
         "storeAddress": "123 Main Street"
       },
       "minDiscount": 5,
@@ -816,7 +816,7 @@
       "gst": "1A4545",
       "storeAddress": "Katra",
       "state": "UP",
-      "city": "MAINPURI",
+      "city": "artist1",
       "pinCode": 205001,
       "additionalContact": "MERA NAAM JOKER",
       "logo": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
@@ -831,7 +831,7 @@
       "location": {
         "country": "India",
         "state": "UP",
-        "city": "Mainpuri",
+        "city": "artist13",
         "storeAddress": "Katra"
       },
       "minDiscount": 5,
@@ -878,29 +878,29 @@
   "locations": [
     {
       "id": 1,
-      "name": "Uttar Pradesh",
-      "value": "uttarPradesh",
+      "name": "modern_art",
+      "value": "modern_art",
       "cities": [
-        "Mainpuri",
-        "Lucknow",
-        "Kanpur",
-        "Firozabad",
-        "Agra",
-        "Meerut"
+        "artist1",
+        "artist2",
+        "artist3",
+        "artist4",
+        "artist5",
+        "artist6"
       ]
     },
     {
       "id": 2,
-      "name": "Bihar",
-      "value": "bihar",
+      "name": "digital_art",
+      "value": "digital_art",
       "cities": [
-        "Patna",
-        "Gaya",
-        "Bhagalpur",
-        "Muzaffarpur",
-        "Darbhanga",
-        "Arrah",
-        "Begusarai"
+        "artist7",
+        "artist8",
+        "artist9",
+        "artist10",
+        "artist11",
+        "artist12",
+        "artist13"
       ]
     }
   ],
@@ -919,36 +919,6 @@
       "userId": 4,
       "quantity": 1,
       "id": 1
-    },
-    {
-      "name": "Art 2",
-      "description": "Premium Basmati Art 2",
-      "price": 499.99,
-      "discount": 10,
-      "stock": 100,
-      "productRating": 5,
-      "productRatingCount": 14,
-      "shopId": 2,
-      "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
-      "productId": 201,
-      "userId": 3,
-      "quantity": 1,
-      "id": 2
-    },
-    {
-      "name": "Art 1",
-      "description": "High-Quality Lentils",
-      "price": 899.99,
-      "discount": 15,
-      "stock": 99,
-      "productRating": 5,
-      "productRatingCount": 14,
-      "shopId": 2,
-      "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
-      "productId": 202,
-      "userId": 3,
-      "quantity": 1,
-      "id": 3
     }
   ],
   "wishlist": [
@@ -1244,6 +1214,57 @@
       "userId": 3,
       "status": "pending",
       "id": 7
+    },
+    {
+      "cartItems": [
+        {
+          "name": "Art 2",
+          "description": "Premium Basmati Art 2",
+          "price": 499.99,
+          "discount": 10,
+          "stock": 100,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 2,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "productId": 201,
+          "userId": 3,
+          "quantity": 1,
+          "id": 2
+        },
+        {
+          "name": "Art 1",
+          "description": "High-Quality Lentils",
+          "price": 899.99,
+          "discount": 15,
+          "stock": 99,
+          "productRating": 5,
+          "productRatingCount": 14,
+          "shopId": 2,
+          "productImage": "https://media.istockphoto.com/id/1462545505/photo/girl-artist-hand-holds-paint-brush-and-draws-surreal-fairy-tale-portrait-on-white-canvas.jpg?s=2048x2048&w=is&k=20&c=4sy2pvYy81yd4hOXCLCx20M8CpBmrUfkbwOoB7AaRnw=",
+          "productId": 202,
+          "userId": 3,
+          "quantity": 1,
+          "id": 3
+        }
+      ],
+      "totalAmount": 1215,
+      "totalItems": 2,
+      "paymentMethod": "cash",
+      "selectedAddress": {
+        "name": "Jack Morris new edited",
+        "email": "jackmorris@gmail.com",
+        "phoneNumber": 112211221122,
+        "street": "1122",
+        "addressLine2": "1122",
+        "city": "onetwo",
+        "state": "onetwo",
+        "pinCode": 121212,
+        "country": "onetwo"
+      },
+      "userId": 3,
+      "status": "pending",
+      "id": 8
     }
   ]
 }
